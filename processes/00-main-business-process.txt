@@ -1,0 +1,13 @@
+@startuml
+!theme bluegray
+
+start
+
+:Green energy produced;
+:Solar prower plant submits documents to government proving produced energy;
+:Green certificates issued to solar power plant;
+:Solar powerplant sell certificates using uniswap or other dex exchange to carbon friendly person;
+:Carbon friendly person burns the credits and receives certificate about burning specific amount of credits;
+
+stop
+@enduml
