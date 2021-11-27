@@ -9,5 +9,7 @@ start
 :Solar powerplant sell certificates using uniswap or other dex exchange to carbon friendly person;
 :Carbon friendly person burns the credits and receives certificate about burning specific amount of credits;
 
+:Test;
+
 stop
 @enduml
