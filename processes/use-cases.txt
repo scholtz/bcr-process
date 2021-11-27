@@ -1,0 +1,17 @@
+@startuml
+!theme bluegray
+
+left to right direction
+
+CarbonFriendly --> (Buy green credits)
+CarbonFriendly --> (Burn green credits, get certificate)
+
+Verifier --> (Verify documents, create transfer)
+Verifier --> (Verify transfer documents, confirm transfer)
+
+SolarPlant --> (Request green credits)
+SolarPlant --> (Sell green credits)
+
+Administrator --> (Give permissions to gov verifier)
+Administrator --> (Manage issuing policy of erc20 green tokens)
+@enduml
