@@ -1,4 +1,6 @@
 @startuml
+!theme bluegray
+
 start
 
 if (Is company registration?) then (yes)
