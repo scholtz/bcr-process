@@ -1,0 +1,26 @@
+@startuml
+start
+
+if (Is company registration?) then (yes)
+
+ :Fill in business entity data;
+ :Fill in contact person data;
+ :Fill in representatives data;
+ :Fill in beneficial owners data;
+ :Take picture of registraar;
+ :Submit documents prooving entity registration;
+ :Submit documents prooving person data;
+
+else (no)
+ 
+ :Fill in contact data;
+ :Fill in personal data;
+ :Take picture of registraar;
+ :Submit documents prooving person data;
+
+endif
+
+ :Generate agreement document;
+ :Submit final agreement document;
+stop
+@enduml
