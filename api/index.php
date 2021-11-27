@@ -25,7 +25,7 @@ if(isset($_SERVER["REQUEST_URI"]) && substr($_SERVER["REQUEST_URI"],-4)==".svg")
 $files = scandir($dir);
 foreach($files as $file){
   if(substr($file,-4) != ".txt") continue;
-  echo '<h2><a href="https://github.com/scholtz/bcr-process/edit/main/analysis/processes/'.$file.'">'.$file.'</a></h2>';
+  echo '<h2><a href="https://github.com/scholtz/bcr-process/edit/main/processes/'.$file.'">'.$file.'</a></h2>';
   $svgfilename = substr($file,0,-4).".svg";
   $link = 'https://process.blockchaincarbonregistry.com/'.$svgfilename;
 
